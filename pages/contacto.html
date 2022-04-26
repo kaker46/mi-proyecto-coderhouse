@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+</head>
+<body>
+    <div>
+        <img src="/imagenes/logo.png"/>
+     <nav>
+			 <ul>
+				  <li><a href="../index.html">Home</a></li>
+          <li><a href="AlquilerDeEstudio.html">Alquiler de Estudio</a></li>
+				  <li><a href="SegundaMano.html">Segunda Mano</a></li>
+				  <li><a href="quienesSomos.html">Quienes Somos</a></li>
+				  <li><a href="contacto.html">Contacto</a></li>
+			 </ul>
+		 </nav>
+    </div>
+    <form>
+        <h3>INDICA TUS DATOS PERSONALES</h3>
+        <label for="n">Nombre:</label><br>
+        <input type="text" id="n" placeholder="Nombre" size="30"><br><br>
+        <label for="a">Apellidos:</label><br>
+        <input type="text" id="a" placeholder="Apellidos" size="40"><br><br>
+        <label for="t">Telefono:</label><br>
+        <input type="text" id="t" placeholder="+34" size="20"><br><br>
+        <label for="e">E-mail:</label><br>
+        <input type="text" id="e" placeholder="correo@correo.com" size="50"><br><br>
+         <div>
+              <label for="dia">Dia de Nacimiento:</label><br>
+              <input type="number" id="dia" placeholder="ej:31" size="40" name="nacido" min="1" max="31"><br><br>
+              <label for="mes">Mes de Nacimiento:</label><br>
+              <input type="number" id="mes" placeholder="ej:12" size="40" name="nacido" min="1" max="31"><br><br>
+              <label for="Año">Año de Nacimiento:</label><br>
+              <input type="number" id="Año" placeholder="ej:1900" size="40" name="nacido" min="1900"><br><br>
+              <p>Sexo:
+              <input type="radio" name="hm" value="h" required=""> Hombre
+              <input type="radio" name="hm" value="m"> Mujer
+         </div>
+        <h3>DIRECCION</h3>
+        <label for="calle">Calle:</label><br>
+        <input type="text" id="calle" placeholder="C/" size="30"><br><br>
+        <label for="Localidad">Localidad:</label><br>
+        <input type="text" id="Localidad" placeholder="ej:Alicante" size="30"><br><br>
+        <label for="pais">Pais:</label><br>
+        <input type="text" id="pais" placeholder="ej: España" size="30"><br><br>
+        <label for="postal">Codigo Postal:</label><br>
+        <input type="text" id="postal" placeholder="ej:00000" size="30"><br><br>
+        <h3>COMO SUPISTE DE NOSOTROS</h3>
+         <p>:
+            <input type="radio" name="abcd" value="a" required=""> Me lo recomendo un amigo
+            <input type="radio" name="abcd" value="b"> Por internet
+            <input type="radio" name="abcd" value="c"> Anuncio de publicidad
+            <input type="radio" name="abcd" value="d"> Otros
+         </p>
+         <h3>QUE INFORMACION DESEAS SOBRE NOSOTROS</h3>
+         <select name="Informacion">
+            <option>Sobre la venta de instrumentos</option>
+            <option>Sobre los cursos que se imparten</option>
+            <option>Sobre el alquiler de estudio y sala de ensayo</option>
+        </select>
+          <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Borrar">
+          </p>
+        </form>
+</body>
+<footer>todos los derechos reservados.2022</footer>
+</html>
