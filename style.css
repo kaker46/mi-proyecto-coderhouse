@@ -1,3 +1,9 @@
+* { 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body{
   background-color: #525E75;
   font-family:'Lexend Deca',sans-serif;
@@ -13,6 +19,7 @@ body{
 /* --------------------------------------------------- */
 
 .cabecera {
+  margin-top: 10px;
   text-align: center;
   background-color:rgba(87, 83, 83, 0.198);
   border: 1px solid rgba(188, 185, 183, 0.466);
@@ -20,8 +27,8 @@ body{
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   border-bottom-left-radius: 15px;
-  height: 80px;
-  width: 99%;
+  height: 60px;
+  width: 100%;
   position: fixed;
   z-index: 1;
 }
@@ -286,7 +293,7 @@ footer{
 }
 
 .sala__imagen{
-    width: 600px;
+    width: 500px;
     height: 300px;
     border-radius:15px;
     filter: grayscale(75%);
@@ -321,7 +328,16 @@ footer{
     justify-content: center;
   }
 
-  .flexbox1__contacto{
+  .flexbox1__contacto1{
+    width: 400px;
+  }
+
+  .flexbox1__contacto2{
+    width: 400px;
+    padding-left: 70px;
+  }
+
+  .flexbox1__contacto3{
     width: 400px;
   }
 
@@ -330,6 +346,7 @@ footer{
    /* ------------------------------------------ */
   
 .frasespan{
+  margin-bottom:15px ;
   text-align: center;
 }
 
@@ -337,13 +354,18 @@ footer{
     text-align: center;
   }
   .consulta{
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-    border: 1px solid #000;
+     margin-bottom: 75px;
+     background-color: rgba(210, 105, 30, 0.534);
+     display: flex; 
+     justify-content: center; 
+     align-items: center;  
+     border: 3px solid #000;
+     border-radius: 5px;
   }
 
    .doselementos{
+     margin-top: 50px;
+     margin-bottom: 50px;
      display: flex;
      justify-content: space-around;
    }
@@ -370,13 +392,15 @@ footer{
   }
 
    .flexboxarticulos{ 
+    border: 3px solid #000;
+    border-radius: 5px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-column-gap: 20px;
-    grid-row-gap: 20px;
-    justify-items: stretch;
-    align-items: stretch;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 33.3% 33.3% 33.3% ;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    justify-items: center;
+    align-items: center;
    } 
 
   .articulos{
@@ -431,7 +455,7 @@ footer{
 
   border-bottom-right-radius: 20px;
   width: 240px;  
-  height: 125px;
+  height: 143px;
   margin-top: 0px;
   margin-bottom: 0px;
   transition: transform .5s;
@@ -452,6 +476,20 @@ footer{
 /* debemos usar @media querys */
 
 
+/* usando media querys a las vistas menores de 1200 */
+@media screen and (max-width: 1200px) {
+
+  .flexbox1__contacto3{
+    margin-top: 40px;
+    margin-right: 400px;
+  }
+}
+
+
+
+
+
+
 /* usando media querys a las vistas menores de 1024 */
 @media screen and (max-width: 1024px) {
   /* aqui empieza el media querys de index */
@@ -462,20 +500,53 @@ footer{
    .boton{
      font-size: 10px;
    }
-   
+
+/* aqui empieza el media querys de segunda mano */
+
+
+
+
+
+
+
+/* aqui empieza el media querys de contacto */
+
+.flexbox1__contacto3{
+  margin-top: 40px;
+  margin-right: 0px;
 }
-/* aqui termina el media querys de index */
 
+.flexbox1__2{
+  flex-direction: column;
+  align-items: center;
+}
+ /* quienes somos */
 
+ .doselementos{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  flex-direction: column;
+  align-items: center;
+ }
+
+ .framer{
+   margin-top: 50px;
+   margin-bottom: 50px;
+ }
+ .frasespan{
+  margin-top: 50px;
+  margin-bottom: 15px;
+ }
 
 /* usando media querys a las vistas menores de 768 */
 @media screen and (max-width: 768px) {
   /* aqui empieza el media querys de index */
   .cabecera{
     background-color: #635e06;
+    width:768px;
   }
   .fotoportada{     
-    width: 1200px;
+    width:768px;
   }
  .titulo{
    font-size: 50px;
@@ -483,17 +554,17 @@ footer{
  }
 
 .bodyuno{
-  width: 1200px;
+  width:768px;
 }
   .bloque{             
-    width: 1200px;
+    width:768px;
   }
 
 .frase3{
   text-align: center;
 }
   .bloque2{
-    width: 1200px;
+    width:768px;
 
   }
 
@@ -501,28 +572,18 @@ footer{
 /* aqui empieza el media querys de alquiler de estudio */
 
 .bodydos{
-
-  width:1200px;
+  width:768px;
 }
-
   .textoalquiler{  
-    width: 1024px;
+    width: 768px;
   }
 
 /* aqui empieza el media querys de catalogo de segunda mano */
 
-.flexboxarticulos{
-display: grid;
-    grid-template-columns: 1fr 1fr ;
-    grid-template-rows: 1fr 1fr;
-    grid-column-gap: 10px;
-    grid-row-gap: 10px;
-    justify-items: center;
-    align-items: center;
-}           
-.novedades {
-  margin-left: 150px;
-}
+
+
+
+
 
 /* aqui empieza el media querys de contacto */
 
@@ -530,6 +591,15 @@ display: grid;
   flex-direction:column;
 }
 
+.flexbox1__contacto3{
+  margin-top: 40px;
+  margin-right: 0px;
+}
+
+.flexbox1__contacto2{
+  margin-top: 40px;
+  margin-right: 0px;
+}
 
 
 /* aqui empieza el media querys de quienes somos */
@@ -544,5 +614,6 @@ width:1200px;
   text-align: center;
 
 
+}
 }
 }
