@@ -1,98 +1,84 @@
 body{
-    background-color: rgb(0, 0, 0);
-}
-
-.bodyalquiler{
   background-color: #525E75;
   font-family:'Lexend Deca',sans-serif;
 }
 
+.bodyuno{
+  background-color: #000;
+  font-family: 'lexend Deca' , sans-serif;
+}
 
 /* --------------------------------------------------- */
 /* aqui empieza la barra de navegacion */
 /* --------------------------------------------------- */
 
 .cabecera {
-    background-color:rgba(87, 83, 83, 0.198);
-    border: 1px solid rgba(188, 185, 183, 0.466);
-    border-bottom-right-radius: 15px;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    border-bottom-left-radius: 15px;
-    height: 80px;
-    width: 98%;
-    position: fixed;
-    z-index: 2;
+  text-align: center;
+  background-color:rgba(87, 83, 83, 0.198);
+  border: 1px solid rgba(188, 185, 183, 0.466);
+  border-bottom-right-radius: 15px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  height: 80px;
+  width: 99%;
+  position: fixed;
+  z-index: 1;
 }
 
-.cabeceralogo {
-    margin-top: 5px;
-    margin-left: 75px;
-    width: 50px;  
-    height: 60px;      
+.cabeceralogo { 
+  padding-top: 12px;
+  margin-bottom: -16px; 
+   margin-left: 20px;   
 }
+
+ul {
+  margin: 0;
+  padding: 0;
+  display: inline; 
+  text-align: center; 
+}
+
+li{
+  display: inline;  
+}
+
 
 /* --------------------------------------------------- */
 /* aqui empieza los botones de la  barra de navegacion */
 /* --------------------------------------------------- */
 
 
-.botones{
-    text-align: center;
-    padding-left: -40px;
-    margin-left: 200px;
-    margin-bottom: 20px; 
-    margin-top: -65px;
-}
-
-
-.boton {
-  box-sizing: border-box;
-  -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none;
+.boton{
   background-color: transparent;
-  border: 1px solid #3ce76a77;
-  border-radius: 2em;
-  color: #45e73c;
+  border-radius: 0.6em;
   cursor: pointer;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-self: center;
-      -ms-flex-item-align: center;
-          align-self: center;
-  font-size: 12px;
-  font-weight: 300;
+  font-size: 1rem;
+  font-weight: 400;
   line-height: 1;
   margin: 10px;
-  padding: 1.2em 2.8em;
+  padding: 1.2em 1.2em;
   text-decoration: none;
   text-align: center;
   text-transform: uppercase;
-  font-family: 'Lexend Deca', sans-serif;
+  font-family:'Lexend Deca',sans-serif;
   font-weight: 400;
 }
-
 .boton:hover, .boton:focus {
-  color: #0a1319;
-  text-shadow: -1px 0 white, 0 1px white,1px 0 white, 0 -1px white;
+  color: #7892a3;
   outline: 0;
 }
 
 .primero {
-  border-color: #252c309f;
-  color: rgb(235, 228, 228);
-  box-shadow: 0 0 40px 40px #6e7c8692 inset, 0 0 0 0 #1b1712;
- -webkit-transition: all 150ms ease-in-out;
+  border-color: #0a0a04f2;
+  color: #fff;
+  box-shadow: 0 0 40px 40px #7b9db3b4 inset, 0 0 0 0 #3498db;
+  -webkit-transition: all 150ms ease-in-out;
   transition: all 150ms ease-in-out;
 }
-
 .primero:hover {
-  box-shadow: 0 0 10px 0 #86866e92 inset, 0 0 10px 4px #c8bfb4;
-}
-
+  box-shadow: 0 0 10px 0 #7892a3 inset, 0 0 10px 4px #7892a3;
+} 
 
 /* --------------------------------------------------- */
 /* aqui termina los botones de la  barra de navegacion
@@ -106,6 +92,11 @@ body{
 .h6{
   color: azure;
   text-align: center;
+}
+
+.iconos{
+  display: flex;
+  justify-content: center;
 }
 
 .icono{
@@ -138,12 +129,13 @@ footer{
     margin-top: -114px;
     margin-left: -8px;
     height: 750.3px;
+    z-index: -1;
   }
 
 .bloque {
   background-color: #000000;
   width: 100%;
-  height: 860px;
+  height: 500px;
   line-height: 1;
  }
 
@@ -156,7 +148,6 @@ footer{
     margin-top: -140px;
     margin-bottom: 100px;
     position: relative;
-    z-index: 1;
 
 }
 
@@ -191,17 +182,21 @@ footer{
     padding-top: 80px;
     text-align: center;
     text-shadow: -1px 0 rgb(0, 0, 0), 0 1px white,1px 0 white, 0 -1px rgba(90, 6, 6, 0);
+    display: flex;
+    justify-content: center;
    }
      
    .novedad{
      color:  #630606;
-     font-size: 20px;
-     margin-left: 55px;
-     margin-top: -50px;
+     font-size: 50px;
+     margin-top: 50px;
+     margin-bottom: 0px;
      border-right-style: solid;
      border-right-width: 0px;
-     padding-right: 25px;
-   }
+     text-align: center;
+     }
+
+   
 
    .novedadarticulo {
     color: brown;
@@ -212,7 +207,8 @@ footer{
     width: 350px;
     height: 350px;
     float: left;
-    margin-left: 35px;
+    margin-left: 17px;
+    margin-right: 17px;
     /* float: left; */
     /* este float creo que se puede sustituir por flexbox */
 }
@@ -239,10 +235,13 @@ footer{
 }
 
 .frase3{
-  margin-top: 445px;
+  text-align: center;
+  margin-top: 40px;
+  color: #630606;
 }
 
 .ultimotexto{
+  text-align: center;
       margin-top: 50px;
       color: beige;
 }
@@ -255,6 +254,7 @@ footer{
 
 
 .textoalquiler{
+  margin: 0px;
   text-align: center;
   padding: 100px;
   font-size: 40px;
@@ -263,6 +263,7 @@ footer{
 
 .flexbox1{
   display: flex;
+  justify-content: center;
   flex-direction: row;
   flex-wrap: wrap;
   
@@ -318,43 +319,230 @@ footer{
     flex-direction: row;
     flex-wrap: wrap; 
     justify-content: center;
-  
   }
 
   .flexbox1__contacto{
     width: 400px;
-
   }
 
   /* ------------------------------------------ */
    /*   aqui empieza la pagina de quienes somos */
    /* ------------------------------------------ */
+  
+.frasespan{
+  text-align: center;
+}
 
-   
+  .fraseh3{
+    text-align: center;
+  }
+  .consulta{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border: 1px solid #000;
+  }
+
+   .doselementos{
+     display: flex;
+     justify-content: space-around;
+   }
 
 
     .frasesomos{  
+      margin: 0px;
      padding-top: 200px;
      font-size: 30px;
      text-align: center;  
-     
-     
    }
 
-   /* .doselementos{ 
-    display: flex;
-    justify-content: center;
+   .contactotel{
+    text-align: center;
+   }
+  /* aqui em pieza la pagina de segunda mano */
+ 
+  .novedades{
+    color: #630606;
+    text-align: center;
+    font-size: 100px;
+    margin: 0px;
+    padding-top: 125px;
+  }
+
+   .flexboxarticulos{ 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    justify-items: stretch;
+    align-items: stretch;
+   } 
+
+  .articulos{
+    margin: 15px;
+    background-color: #000700ab;
+    width: 333px;
+    height: 193px;
+    border: 1px solid rgba(38, 62, 32, 0.69);
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 2fr 6fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 1px;
+    justify-items: stretch;
+    align-items: stretch;
+    /* crear zoom en el div ,gracias 
+    a transition y luego a :hover*/
+    transition: transform .3s; 
+ }
+.articulos:hover{
+    transform: scale(0.9);
+}
+.uno{
+  text-align: center;
+  border-top-left-radius: 20px;
+  margin-top: 0px;
+  color: antiquewhite;
+  background-color: blue;
 }
 
-  .divsomos{
-    padding-top: 100px;
-  }
-   .consulta{
-    border-radius:15px;
-    border: 1px solid #000;
-    width: 260px;
-    margin-left: 40px;
-   }
+.dos{
+ color: aliceblue;
+ background-color: black;
+ text-align: center;
+  border-top-right-radius: 20px;
+  margin-top: 0px;
+}
 
-  /* .framer{ */
-  /* } */
+.tres{
+  margin: 0px;
+  padding: 0px;
+  color: aliceblue;
+  background-color: black;
+  text-align: center;
+  border-bottom-left-radius: 20px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.cuatro{
+
+  border-bottom-right-radius: 20px;
+  width: 240px;  
+  height: 125px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  transition: transform .5s;
+}
+
+
+.titulocatalogo{
+  text-align: center;
+}
+
+.catalogo{
+  text-align: center;
+}
+
+/* aqui empieza el media querys */
+/* siempre va al final del codigo css */
+/* desktop primero -- hay que colocar el max width-- */
+/* debemos usar @media querys */
+
+
+/* usando media querys a las vistas menores de 1024 */
+@media screen and (max-width: 1024px) {
+  /* aqui empieza el media querys de index */
+  .cabecera{
+    flex-direction: row;
+    background-color: #630606;
+  }
+   .boton{
+     font-size: 10px;
+   }
+   
+}
+/* aqui termina el media querys de index */
+
+
+
+/* usando media querys a las vistas menores de 768 */
+@media screen and (max-width: 768px) {
+  /* aqui empieza el media querys de index */
+  .cabecera{
+    background-color: #635e06;
+  }
+  .fotoportada{     
+    width: 1200px;
+  }
+ .titulo{
+   font-size: 50px;
+   text-align: center;
+ }
+
+.bodyuno{
+  width: 1200px;
+}
+  .bloque{             
+    width: 1200px;
+  }
+
+.frase3{
+  text-align: center;
+}
+  .bloque2{
+    width: 1200px;
+
+  }
+
+
+/* aqui empieza el media querys de alquiler de estudio */
+
+.bodydos{
+
+  width:1200px;
+}
+
+  .textoalquiler{  
+    width: 1024px;
+  }
+
+/* aqui empieza el media querys de catalogo de segunda mano */
+
+.flexboxarticulos{
+display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    justify-items: center;
+    align-items: center;
+}           
+.novedades {
+  margin-left: 150px;
+}
+
+/* aqui empieza el media querys de contacto */
+
+.flexbox1__2{
+  flex-direction:column;
+}
+
+
+
+/* aqui empieza el media querys de quienes somos */
+
+
+.bodycinco{
+
+width:1200px;
+}
+
+.frasesomos {
+  text-align: center;
+
+
+}
+}
