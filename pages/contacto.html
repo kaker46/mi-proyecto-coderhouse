@@ -1,35 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacto</title>
-</head>
-<body>
+    <title>Alquiler de Estudio</title>
+    <link rel="shortcut icon" href="../imagenes/doctorlogo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;400;700;800&family=Rubik+Glitch&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css">
+ </head>
+ <body class="bodyalquiler">
+  <header class="cabecera">
     <div>
-        <img src="/imagenes/logo.png"/>
-     <nav>
-			 <ul>
-				  <li><a href="../index.html">Home</a></li>
-          <li><a href="AlquilerDeEstudio.html">Alquiler de Estudio</a></li>
-				  <li><a href="SegundaMano.html">Segunda Mano</a></li>
-				  <li><a href="quienesSomos.html">Quienes Somos</a></li>
-				  <li><a href="contacto.html">Contacto</a></li>
-			 </ul>
-		 </nav>
-    </div>
+          <img class="cabeceralogo" src="../imagenes/doctorlogo.png"/>
+    </div>     
+    <span> 
+          <table class="botones">
+              <th><a class="boton primero" href="../index.html">Home</a></th>
+              <th><a class="boton primero" href="AlquilerDeEstudio.html">Alquiler de Estudio</a></th>
+              <th><a class="boton primero" href="SegundaMano.html">Segunda Mano</a>
+            
+                <!-- <li><a href="#">Enlace 2.1</a></li> -->
+                <!-- <li><a href="#">Enlace 2.2</a></li> -->
+                <!-- <li><a href="#">Enlace 2.3</a></li> -->
+            </th>
+              <th><a class="boton primero" href="quienesSomos.html">Quienes Somos</a></th>
+              <th><a class="boton primero" href="contacto.html">Contacto</a></th>
+         </table>
+    </span>
+</header>
     <form>
-        <h3>INDICA TUS DATOS PERSONALES</h3>
-        <label for="n">Nombre:</label><br>
-        <input type="text" id="n" placeholder="Nombre" size="30"><br><br>
-        <label for="a">Apellidos:</label><br>
-        <input type="text" id="a" placeholder="Apellidos" size="40"><br><br>
-        <label for="t">Telefono:</label><br>
-        <input type="text" id="t" placeholder="+34" size="20"><br><br>
-        <label for="e">E-mail:</label><br>
-        <input type="text" id="e" placeholder="correo@correo.com" size="50"><br><br>
-         <div>
+      <div class="flexbox1__2">
+          <div class="flexbox1__contacto">
+              <h3>SE MIEMBRO DE NUESTRA COMUNIDAD</h3>
+              <label for="n">Nombre:</label><br>
+              <input type="text" id="n" placeholder="Nombre" size="30"><br><br>
+              <label for="a">Apellidos:</label><br>
+              <input type="text" id="a" placeholder="Apellidos" size="40"><br><br>
+              <label for="t">Telefono:</label><br>
+              <input type="text" id="t" placeholder="+34" size="20"><br><br>
+              <label for="e">E-mail:</label><br>
+              <input type="text" id="e" placeholder="correo@correo.com" size="50"><br><br>
               <label for="dia">Dia de Nacimiento:</label><br>
               <input type="number" id="dia" placeholder="ej:31" size="40" name="nacido" min="1" max="31"><br><br>
               <label for="mes">Mes de Nacimiento:</label><br>
@@ -40,15 +56,18 @@
               <input type="radio" name="hm" value="h" required=""> Hombre
               <input type="radio" name="hm" value="m"> Mujer
          </div>
-        <h3>DIRECCION</h3>
-        <label for="calle">Calle:</label><br>
-        <input type="text" id="calle" placeholder="C/" size="30"><br><br>
-        <label for="Localidad">Localidad:</label><br>
-        <input type="text" id="Localidad" placeholder="ej:Alicante" size="30"><br><br>
-        <label for="pais">Pais:</label><br>
-        <input type="text" id="pais" placeholder="ej: España" size="30"><br><br>
-        <label for="postal">Codigo Postal:</label><br>
-        <input type="text" id="postal" placeholder="ej:00000" size="30"><br><br>
+         <div class="flexbox1__contacto">
+               <h3>DIRECCION</h3>
+               <label for="calle">Calle:</label><br>
+               <input type="text" id="calle" placeholder="C/" size="30"><br><br>
+               <label for="Localidad">Localidad:</label><br>
+               <input type="text" id="Localidad" placeholder="ej:Alicante" size="30"><br><br>
+               <label for="pais">Pais:</label><br>
+               <input type="text" id="pais" placeholder="ej: España" size="30"><br><br>
+               <label for="postal">Codigo Postal:</label><br>
+               <input type="text" id="postal" placeholder="ej:00000" size="30"><br><br>
+         </div> 
+         <div class="flexbox1__contacto">
         <h3>COMO SUPISTE DE NOSOTROS</h3>
          <p>:
             <input type="radio" name="abcd" value="a" required=""> Me lo recomendo un amigo
@@ -66,7 +85,16 @@
             <input type="submit" value="Enviar">
             <input type="reset" value="Borrar">
           </p>
+        </div>
+    </div>
         </form>
-</body>
-<footer>todos los derechos reservados.2022</footer>
-</html>
+        <br></br>
+        <br></br>
+        <h6 class="h6">Siguenos en:</h6>
+    </body>
+    <footer>
+        <a href="https://es-es.facebook.com/"><span ><img class="icono" src="../imagenes/facebook.png"/></span></a>
+        <a href="https://www.instagram.com/?hl=es"><span><img class="icono" src="../imagenes/instragram.png"/></span></a>
+        <br>
+        Todos los derechos reservados.2022</footer>
+    </html>
