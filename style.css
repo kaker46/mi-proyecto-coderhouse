@@ -19,7 +19,7 @@ body{
 /* --------------------------------------------------- */
 
 .cabecera {
-  margin-top: 10px;
+  /* margin-top: 10px; */
   text-align: center;
   background-color:rgba(87, 83, 83, 0.198);
   border: 1px solid rgba(188, 185, 183, 0.466);
@@ -27,7 +27,7 @@ body{
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   border-bottom-left-radius: 15px;
-  height: 60px;
+  height: 100px;
   width: 100%;
   position: fixed;
   z-index: 1;
@@ -39,13 +39,6 @@ body{
   padding-top: 12px;
   margin-bottom: -16px; 
    margin-left: 20px;   
-}
-
-ul {
-  margin: 0;
-  padding: 0;
-  display: inline; 
-  text-align: center; 
 }
 
 li{
@@ -65,7 +58,10 @@ li{
   font-size: 1rem;
   font-weight: 400;
   line-height: 1;
-  margin: 10px;
+  margin-top: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  
   padding: 1.2em 1.2em;
   text-decoration: none;
   text-align: center;
