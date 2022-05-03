@@ -14,6 +14,10 @@ body{
   font-family: 'lexend Deca' , sans-serif;
 }
 
+.bodydos{
+  background-color:rgb(56, 56, 56) ;
+  color: beige;
+}
 /* --------------------------------------------------- */
 /* aqui empieza la barra de navegacion */
 /* --------------------------------------------------- */
@@ -27,7 +31,8 @@ body{
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   border-bottom-left-radius: 15px;
-  height: 60px;
+  padding-top: 14px;
+  height: 75px;
   width: 100%;
   position: fixed;
   z-index: 1;
@@ -35,9 +40,7 @@ body{
   background: radial-gradient(circle, rgba(131,58,180,1) 0%, rgba(92,29,253,1) 50%, rgba(252,176,69,1) 100%);
 }
 
-.cabeceralogo { 
-  padding-top: 12px;
-  margin-bottom: -16px; 
+.cabeceralogo {
    margin-left: 20px;   
 }
 
@@ -203,7 +206,7 @@ footer{
 
   .bloque2{
     font-family:'Lexend Deca',sans-serif;
-    background-image: url("imagenes/ensayo.jpg");
+    background-image: url("../imagenes/ensayo.jpg");
     background-size: cover;
     height: 600px;
     margin-top: -58px;   
@@ -406,7 +409,7 @@ footer{
   }
   .consulta{
      margin-bottom: 75px;
-     background-color: rgba(210, 105, 30, 0.534);
+     background-image: url("../imagenes/estudio3.jpg");
      display: flex; 
      justify-content: center; 
      align-items: center;  
@@ -561,6 +564,10 @@ footer{
 
 
 /* aqui empieza el media querys de contacto */
+.flexbox1__contacto2{
+  padding: 0px;
+}
+
 
 .flexbox1__contacto3{
   margin-top: 40px;
