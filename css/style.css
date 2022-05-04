@@ -409,11 +409,13 @@ footer{
   }
   .consulta{
      margin-bottom: 75px;
-     background-image: url("../imagenes/estudio3.jpg");
+     background-image: url("../imagenes/estudio3.jpg") ;
+     background-size: 100% 100%;
+  background-repeat:no-repeat;
      display: flex; 
      justify-content: center; 
      align-items: center;  
-     border: 3px solid #000;
+     border: 3px solid beige;
      border-radius: 5px;
   }
 
@@ -438,7 +440,7 @@ footer{
   /* aqui em pieza la pagina de segunda mano */
  
   .novedades{
-    color: #630606;
+    color: beige;
     text-align: center;
     font-size: 100px;
     margin: 0px;
@@ -637,6 +639,17 @@ footer{
   }
 
 /* aqui empieza el media querys de catalogo de segunda mano */
+.flexboxarticulos{ 
+  border: 3px solid #000;
+  border-radius: 5px;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 16.6% 16.6% 16.6% 16.6% 16.6% 16.6% ;
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+  justify-items: center;
+  align-items: center;
+ } 
 
 
 
