@@ -182,7 +182,7 @@ footer{
 
 
 
-.frase {
+.bloque__frase {
   color: rgba(182, 121, 129, 0.459);
   text-align: center;
   font-family:'Lexend Deca',sans-serif;
@@ -197,7 +197,7 @@ footer{
   font-size: 200px;
 }
 
-.frase2{
+.bloque__frase2{
  color: rgb(202, 202, 231);
  text-align: center;
  font-family:'Lexend Deca',sans-serif;
@@ -229,7 +229,7 @@ footer{
 
    
 
-   .novedadarticulo {
+   .bloque2__articulo {
     color: brown;
     font-size: 15px;
     background-color: #1b1712e2;
@@ -244,7 +244,7 @@ footer{
     /* este float creo que se puede sustituir por flexbox */
 }
 
-   .novedadimagen{
+   .bloque2__imagen{
     width: 200px;
     height: 200px;
     border-radius:150px;
@@ -253,14 +253,14 @@ footer{
      
    }
 
-.novedad__comprar {
+.bloque2__comprar {
          font-family:'Lexend Deca',sans-serif;
          color: #e5ebe5;
          background-color: #0a1319;
          border-radius: 15px;
 }   
 
-.novedad__comprar:hover {
+.bloque2__comprar:hover {
   box-shadow: 0 0 10px 0 #86866e92 inset, 0 0 10px 4px #c8bfb4;
 
 }
