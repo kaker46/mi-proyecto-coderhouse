@@ -1,23 +1,9 @@
 .fotoportada {
-    width: 102%;
-    position: relative;
-    margin-top: -114px;
-    margin-left: -8px;
-    height: 750.3px;
-    z-index: -1;
+  @extend .probandoExtend;
   }
 
   .titulo { 
-    font-family: 'Rubik Glitch', cursive;
-    font-size: 70px;
-    text-shadow: -1px 0 white, 0 1px white,1px 0 white, 0 -1px white;
-    color: #05595B;
-    text-align: center;
-    margin-top: -140px;
-    margin-bottom: 100px;
-    position: relative;
-    -webkit-transition: 1s linear;
-    transition: 1s linear;
+    @extend .tituloExtend;
 
   
   &:hover{

@@ -11,7 +11,7 @@
 
  // mi primer uso de & unpersoned//
     .bloque2{
-     font-family:'Lexend Deca',sans-serif;
+     font-family:$indexfuente;
      background-image: url("../imagenes/ensayo.jpg");
      background-size: cover;
      height: 600px;
@@ -49,7 +49,7 @@
   }
 
 &__comprar {
-        font-family:'Lexend Deca',sans-serif;
+        font-family:$indexfuente;
         color: #e5ebe5;
         background-color: #0a1319;
         border-radius: 15px;

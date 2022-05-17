@@ -1,0 +1,53 @@
+/* ------------------------------------------ */
+   /*   aqui empieza la pagina de quienes somos */
+   /* ------------------------------------------ */
+  
+   .fram{
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+    background-color: #2C3E50;
+  }
+  .fram:hover{
+    -webkit-transform: perspective(400px) rotateX(15deg);
+    transform: perspective(400px) rotateX(15deg);
+  }
+
+
+.frasespan{
+  margin-bottom:15px ;
+  text-align: center;
+}
+
+  .fraseh3{
+    text-align: center;
+  }
+  .consulta{
+     margin-bottom: 75px;
+     background-image: url("../imagenes/estudio3.jpg") ;
+     background-size: 100% 100%;
+  background-repeat:no-repeat;
+     display: flex; 
+     justify-content: center; 
+     align-items: center;  
+     border: 3px solid beige;
+     border-radius: 5px;
+  }
+
+   .doselementos{
+     margin-top: 50px;
+     margin-bottom: 50px;
+     display: flex;
+     justify-content: space-around;
+   }
+
+
+    .frasesomos{  
+      margin: 0px;
+     padding-top: 200px;
+     font-size: 30px;
+     text-align: center;  
+   }
+
+   .contactotel{
+    text-align: center;
+   }

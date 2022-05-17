@@ -1,0 +1,88 @@
+/* aqui em pieza la pagina de segunda mano */
+ 
+.novedades{
+    color: beige;
+    text-align: center;
+    font-size: 100px;
+    margin: 0px;
+    padding-top: 125px;
+  }
+
+   .flexboxarticulos{ 
+    border: 3px solid #000;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 33.3% 33.3% 33.3% ;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    justify-items: center;
+    align-items: center;
+   } 
+
+  .articulos{
+    margin: 15px;
+    background-color: #000700ab;
+    width: 333px;
+    height: 193px;
+    border: 1px solid rgba(38, 62, 32, 0.69);
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 2fr 6fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 1px;
+    justify-items: stretch;
+    align-items: stretch;
+    /* crear zoom en el div ,gracias 
+    a transition y luego a :hover*/
+    transition: transform .3s; 
+ }
+.articulos:hover{
+    transform: scale(0.9);
+}
+.uno{
+  text-align: center;
+  border-top-left-radius: 20px;
+  margin-top: 0px;
+  color: antiquewhite;
+  background-color: blue;
+}
+
+.dos{
+ color: aliceblue;
+ background-color: black;
+ text-align: center;
+  border-top-right-radius: 20px;
+  margin-top: 0px;
+}
+
+.tres{
+  margin: 0px;
+  padding: 0px;
+  color: aliceblue;
+  background-color: black;
+  text-align: center;
+  border-bottom-left-radius: 20px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.cuatro{
+
+  border-bottom-right-radius: 20px;
+  width: 240px;  
+  height: 143px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  transition: transform .5s;
+}
+
+
+.titulocatalogo{
+  text-align: center;
+}
+
+.catalogo{
+  text-align: center;
+}

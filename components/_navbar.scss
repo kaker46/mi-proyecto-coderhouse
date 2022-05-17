@@ -3,21 +3,7 @@
   /* --------------------------------------------------- */
   
   .cabecera {
-    /* margin-top: 10px; */
-    text-align: center;
-    background-color:rgba(87, 83, 83, 0.198);
-    border: 1px solid rgba(188, 185, 183, 0.466);
-    border-bottom-right-radius: 15px;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    border-bottom-left-radius: 15px;
-    padding-top: 14px;
-    height: 75px;
-    width: 100%;
-    position: fixed;
-    z-index: 1;
-    background: rgb(131,58,180);
-    background: radial-gradient(circle, rgba(131,58,180,1) 0%, rgba(92,29,253,1) 50%, rgba(252,176,69,1) 100%);
+    @extend .navbarExtend;
   }
   
   .cabeceralogo {
