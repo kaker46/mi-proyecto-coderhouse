@@ -7,15 +7,57 @@
 
 body{
     background-color: #525E75;
-    font-family:'Lexend Deca',sans-serif;
+    font-family:$indexfuente;
   }
   
   .bodyuno{
-    background-color: rgb(0, 0, 0);
+    background-color: $indexBodyColor;
     font-family: $indexfuente;
   }
   
   .bodydos{
     background-color:rgb(56, 56, 56) ;
     color: beige;
+  }
+
+  // estas clases es para usar y probar el @extend
+  .probandoExtend{
+    width: 100%;
+    position: cover;
+    margin-top: -114px;
+    height: 750.3px;
+  }
+
+  .tituloExtend{
+    font-family: $fuenteTituloLogo;
+    font-size: 70px;
+    text-shadow: -1px 0 white, 0 1px white,1px 0 white, 0 -1px white;
+    color: #031694;
+    text-align: center;
+    margin-top: -140px;
+    margin-bottom: 100px;
+    position: relative;
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+  }
+
+ 
+  
+
+  // aqui vamos a usar @mixin en el archivo _alquilerEstudio.scss
+
+  @mixin estudiosala($variableMixinBoxShadow) {
+    background-color: #f1ddbfc3;
+    color:  #630606;
+    padding: 5px;
+      width: 600px;
+    border-radius: 25px;
+      border: 1px solid #000;
+    box-shadow: $variableMixinBoxShadow;
+    font-size: 20px;
+    text-align: center;
+    margin-right: 25px;
+    margin-left: 25px;
+    margin-top: 25px;
+
   }

@@ -12,22 +12,31 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;400;700;800&family=Rubik+Glitch&display=swap" rel="stylesheet">
-    <link rel="stylesheet"href="../css/style.css">
+    <link rel="stylesheet"href="../css/style.min.css">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
-    <script src="../js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+
   </head>
 
  <body class="bodydos">
-  <nav class="cabecera">
-    <img class="cabeceralogo" src="../imagenes/doctorlogo.png" width="50" height="50" />
-     <ul>
-       <li><a class="boton primero" href="../index.html">Home</a></li>
-       <li><a class="boton primero" href="AlquilerDeEstudio.html">Alquiler de Estudio</a></li>
-       <li><a class="boton primero" href="SegundaMano.html">Segunda Mano</a>
-       <li><a class="boton primero" href="quienesSomos.html">Quienes Somos</a></li>
-       <li><a class="boton primero" href="contacto.html">Contacto</a></li>
-       </ul>
+  <header>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <a href="#" class="enlace">
+            <img class="cabeceralogo" src="../imagenes/doctorlogo.png" width="50" height="50" />
+        </a>
+        <ul>
+            <li><a class="boton primero" href="../index.html">Home</a></li>
+            <li><a class="boton primero" href="AlquilerDeEstudio.html">Alquiler de Estudio</a></li>
+            <li><a class="boton primero" href="SegundaMano.html">Segunda Mano</a>
+            <li><a class="boton primero" href="quienesSomos.html">Quienes Somos</a></li>
+            <li><a class="boton primero" href="contacto.html">Contacto</a></li>
+        </ul>
     </nav>
+</header>
 
          <h2 class="frasesomos">Hemos creado este sitio web con la finalidad de ayudar
               a cualquier persona interesada en aprender música
@@ -51,7 +60,7 @@
            <h4 class="frasespan">Subscripcion al Boletin Informativo</h4>
            
              <form  class="consulta">
-              <ul>
+              <ol class="lista2">
                   <li>
                     <label for="n">Nombre:</label><br>
                     <input type="text" id="n" placeholder="Nombre" size="20"><br><br>
@@ -65,9 +74,9 @@
                      <textarea id="Escribe un mensaje" name="user_message" style="margin: 0px; height: 200px; width: 171px; resize: none;"></textarea><br><br>
                    </li>
                    <li>
-                      <button class="btn btn-outline-light">enviar</button>
+                      <button class="btn btn-outline-light" style="margin-left: 50px;">enviar</button>
                    </li>
-               </ul>
+                  </ol>
              </form>
            
        
@@ -85,6 +94,7 @@
      <a href="https://es-es.facebook.com/"><span ><img class="icono" src="../imagenes/facebook.png"/></span></a>
      <a href="https://www.instagram.com/?hl=es"><span><img class="icono" src="../imagenes/instragram.png"/></span></a>
   </div>
+  <script src="../js/bootstrap.bundle.min.js"></script>
 </body>
 <footer>Todos los derechos reservados.2022</footer>
 </html>

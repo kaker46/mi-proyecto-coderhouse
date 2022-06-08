@@ -1,0 +1,174 @@
+
+@media (max-width: 1024px){
+    .enlace{
+        padding-left: 20px;
+    }
+    nav ul li a{
+        font-size: 25px;
+    }
+  
+
+  .boton{
+    font-size: 10px;
+  }
+}
+  
+/* aqui empieza el media querys de contacto */
+.flexbox1__contacto2{
+    padding: 0px;
+  }
+  
+  .flexbox1__contacto3{
+    margin-top: 40px;
+    margin-right: 0px;
+  }
+  
+  .flexbox1__2{
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  
+   /* quienes somos */
+   .doselementos{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    flex-direction: column;
+    align-items: center;
+   }
+  
+   .framer{
+     margin-top: 50px;
+     margin-bottom: 50px;
+   }
+   .frasespan{
+    margin-top: 50px;
+    margin-bottom: 15px;
+   }
+
+
+
+
+  @media (max-width: 767px){
+    .checkbtn{
+        display: block;
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #2c3e50;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav ul li a{
+        font-size: 20px;
+    }
+    li a:hover, li a.active{
+        background: none;
+        color: red;
+    }
+    #check:checked ~ ul{
+        left:0;
+    }
+  
+    
+  .fotoportada{     
+    width:768px;
+  }
+ .titulo{
+   font-size: 50px;
+   text-align: center;
+ }
+
+.bodyuno{
+  width:768px;
+}
+  .bloque{             
+    width:768px;
+  }
+
+.frase3{
+  text-align: center;
+}
+  .bloque2{
+    width:768px;
+
+  }
+
+
+/* aqui empieza el media querys de alquiler de estudio */
+
+.bodydos{
+  width:768px;
+}
+  .textoalquiler{  
+    width: 768px;
+  }
+
+/* aqui empieza el media querys de catalogo de segunda mano */
+.flexboxarticulos{ 
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 16.6% 16.6% 16.6% 16.6% 16.6% 16.6% ;
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+  justify-items: center;
+  align-items: center;
+ } 
+
+.articulos{
+  margin-left: -210px;
+}
+
+.cuatro{
+  width: 450px;
+  
+}
+
+
+
+
+/* aqui empieza el media querys de contacto */
+
+.flexbox1__2{
+  flex-direction:column;
+}
+
+.flexbox1__contacto3{
+  margin-top: 40px;
+  margin-right: 0px;
+}
+
+.flexbox1__contacto2{
+  margin-top: 40px;
+  margin-right: 0px;
+}
+
+
+/* aqui empieza el media querys de quienes somos */
+
+
+.bodycinco{
+
+width:1200px;
+}
+
+.frasesomos {
+  text-align: center;
+
+
+}
+.lista2{
+  list-style: none;
+}
+
+}
+

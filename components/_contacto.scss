@@ -1,0 +1,37 @@
+/* ------------------------------------------ */
+   /*   aqui empieza la pagina de contacto */
+   /* ------------------------------------------ */
+
+   .flexbox1__2{ 
+
+    color: beige;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    justify-content: center;
+  }
+
+  .flexbox1__contacto1{
+    width: 400px;
+  }
+
+  .flexbox1__contacto2{
+    width: 400px;
+    padding-left: 70px;
+  }
+
+  .flexbox1__contacto3{
+    width: 400px;
+  }
+.contactoboto{
+  -webkit-transition: 1s linear;
+  transition: 1s linear;
+  background-color: #ebf0f3;
+}
+.contactoboto:hover{
+  -webkit-transform: translate(10%);
+  transform: translate(10%);
+}
+
+
