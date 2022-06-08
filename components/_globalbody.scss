@@ -22,17 +22,30 @@ body{
 
   // estas clases es para usar y probar el @extend
   .probandoExtend{
+<<<<<<< HEAD
     width: 100%;
     position: cover;
     margin-top: -114px;
     height: 750.3px;
+=======
+    width: 102%;
+    position: relative;
+    margin-top: -114px;
+    margin-left: -8px;
+    height: 750.3px;
+    z-index: -1;
+>>>>>>> b7c4735a0cffaa33e19fcaf9e816d4ad811660d8
   }
 
   .tituloExtend{
     font-family: $fuenteTituloLogo;
     font-size: 70px;
     text-shadow: -1px 0 white, 0 1px white,1px 0 white, 0 -1px white;
+<<<<<<< HEAD
     color: #031694;
+=======
+    color: #05595B;
+>>>>>>> b7c4735a0cffaa33e19fcaf9e816d4ad811660d8
     text-align: center;
     margin-top: -140px;
     margin-bottom: 100px;
@@ -41,7 +54,27 @@ body{
     transition: 1s linear;
   }
 
+<<<<<<< HEAD
  
+=======
+  .navbarExtend{
+    /* margin-top: 10px; */
+    text-align: center;
+    background-color:rgba(87, 83, 83, 0.198);
+    border: 1px solid rgba(188, 185, 183, 0.466);
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    padding-top: 14px;
+    height: 75px;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    background: rgb(131,58,180);
+    background: radial-gradient(circle, rgba(131,58,180,1) 0%, rgba(92,29,253,1) 50%, rgba(252,176,69,1) 100%);
+  }
+>>>>>>> b7c4735a0cffaa33e19fcaf9e816d4ad811660d8
   
 
   // aqui vamos a usar @mixin en el archivo _alquilerEstudio.scss
