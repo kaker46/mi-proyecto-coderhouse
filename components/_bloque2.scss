@@ -14,6 +14,7 @@
      font-family:$indexfuente;
      background-image: url("../imagenes/ensayo.jpg");
      background-size: cover;
+     width: 100%;
      height: 600px;
      margin-top: -58px;   
      padding-top: 80px;
@@ -25,7 +26,7 @@
   
 
   &__articulo {
-   color: brown;
+   color: rgb(166, 124, 47);
    font-size: 15px;
    background-color: #1b1712e2;
    border:4px solid rgba(121, 72, 4, 0.459);
@@ -52,7 +53,7 @@
         font-family:$indexfuente;
         color: #e5ebe5;
         background-color: #0a1319;
-        border-radius: 15px;
+        border-radius: 10px;
 }   
 
 &__comprar:hover {
